@@ -1,0 +1,23 @@
+TEMPLATE-DRIVEN ACADEMIC DOCUMENT PLATFORM
+│
+├── 1. Authentication & User Management
+│
+├── 2. Institution Management
+│
+├── 3. Document Type Management
+│
+├── 4. Global Document Rule Engine
+│
+├── 5. Template Management
+│
+├── 6. Project & Structured Content Management
+│
+├── 7. Document Editor
+│
+├── 8. Document Processing / Rule Engine
+│
+├── 9. Preview & Rendering
+│
+├── 10. DOCX / PDF Generation
+│
+└── 11. Version & Faculty Workflow
