@@ -1,0 +1,39 @@
+                 USER
+                  │
+                  ▼
+             Registration
+                  │
+                  ▼
+           Backend Validation
+                  │
+                  ▼
+            Password Hash
+                  │
+                  ▼
+              USERS DB
+                  │
+                  ▼
+            Assign Role
+                  │
+                  ▼
+             Login Page
+                  │
+                  ▼
+          Email + Password
+                  │
+                  ▼
+        Authentication Service
+                  │
+             ┌────┴────┐
+             │         │
+          Invalid     Valid
+             │         │
+             ▼         ▼
+           Error      Token
+                       │
+                       ▼
+                  Dashboard
+                       │
+              ┌────────┼────────┐
+              ▼        ▼        ▼
+           Student   Faculty   Admin
