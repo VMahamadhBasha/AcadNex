@@ -1,0 +1,44 @@
+                         USERS
+                           │
+                           ▼
+                    ┌─────────────┐
+                    │ React Frontend│
+                    └──────┬──────┘
+                           │
+                    REST API / JSON
+                           │
+                           ▼
+                 ┌───────────────────┐
+                 │   Spring Boot     │
+                 │     Backend       │
+                 └─────────┬─────────┘
+                           │
+        ┌──────────────────┼──────────────────┐
+        │                  │                  │
+        ▼                  ▼                  ▼
+     MySQL              MongoDB           File Storage
+        │                  │                  │
+        │                  │                  │
+        ▼                  ▼                  ▼
+ Users/Roles        Project JSON          Images
+ Colleges            Sections             Documents
+ Templates           Components
+ Rules               Versions
+        │                  │
+        └──────────┬───────┘
+                   ▼
+           ┌─────────────────┐
+           │ Rule Resolution │
+           │     Engine      │
+           └────────┬────────┘
+                    │
+                    ▼
+           ┌─────────────────┐
+           │ Document Model  │
+           │  / Render Model │
+           └───────┬─────────┘
+                   │
+          ┌────────┼─────────┐
+          ▼        ▼         ▼
+       Preview    DOCX       PDF
+       HTML/CSS  docx4j    Renderer
