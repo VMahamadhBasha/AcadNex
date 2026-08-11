@@ -1,0 +1,59 @@
+backend/
+│
+├── auth/
+│   ├── controller
+│   ├── service
+│   ├── repository
+│   ├── security
+│   └── dto
+│
+├── user/
+│
+├── institution/
+│
+├── documenttype/
+│
+├── template/
+│   ├── template
+│   ├── version
+│   ├── rule
+│   ├── section
+│   └── component
+│
+├── globalrules/
+│
+├── project/
+│   ├── project
+│   ├── section
+│   ├── component
+│   └── version
+│
+├── component/
+│   ├── heading
+│   ├── paragraph
+│   ├── list
+│   ├── table
+│   ├── image
+│   ├── caption
+│   └── reference
+│
+├── numbering/
+│
+├── rules/
+│   ├── resolver
+│   ├── validator
+│   └── override
+│
+├── rendering/
+│   ├── model
+│   ├── html
+│   ├── docx
+│   └── pdf
+│
+├── storage/
+│
+├── faculty/
+│
+├── workflow/
+│
+└── common/
