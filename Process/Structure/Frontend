@@ -1,0 +1,33 @@
+frontend/
+│
+├── auth/
+│
+├── dashboard/
+│
+├── projects/
+│
+├── editor/
+│   ├── outline/
+│   ├── components/
+│   ├── properties/
+│   └── toolbar/
+│
+├── preview/
+│
+├── templates/
+│
+├── admin/
+│
+├── faculty/
+│
+├── versions/
+│
+├── services/
+│
+├── hooks/
+│
+├── context/
+│
+├── components/
+│
+└── utils/
