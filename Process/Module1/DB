@@ -1,0 +1,24 @@
+MODULE 1
+│
+├── 1. Authentication
+│   ├── Registration
+│   ├── Login
+│   ├── Logout
+│   ├── Password hashing
+│   └── Token/session handling
+│
+├── 2. User Management
+│   ├── User profile
+│   ├── Update profile
+│   ├── Change password
+│   └── Account status
+│
+├── 3. Role Management
+│   ├── Student
+│   ├── Faculty
+│   └── Admin
+│
+└── 4. Authorization
+    ├── Role checking
+    ├── API protection
+    └── Resource ownership
